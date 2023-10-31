@@ -1,0 +1,39 @@
+package hermoso;
+
+import java.util.Scanner;
+public class Hermoso {
+e
+     public static int showNumberPlus10(int Num)
+    {  
+         System.out.println( Num + " plus 10  is " + (Num+10) + ".");
+         return 0;
+    }  
+    public  static int showNumberPlus100(int Num)
+    {      
+         System.out.println( Num + " plus 100  is " + (Num+100) + ".");
+         return 0;
+    } 
+    public  static int showNumberPlus1000(int Num)
+    {          
+         System.out.println( Num + " plus 1000  is " + (Num+1000) + ".");
+         return 0;
+    } 
+
+   public static void main(String args[]){
+     Scanner Scan = new Scanner(System.in);
+       
+     int Num2=0;     
+       
+    System.out.print("Enter an integer: ");
+      Num2 = Scan.nextInt();
+
+     showNumberPlus10(Num2);
+     showNumberPlus100(Num2);
+     showNumberPlus1000(Num2);
+
+        
+   }
+   
+}
+       
+

@@ -1,0 +1,72 @@
+CHECKED EXCEPTION - 4
+ClassNotFoundException
+IllegalAccessException
+InstantiationException
+
+UNCHECKED EXCEPTION - 7
+ArithmeticException
+ArrayIndexOutOfBoundsException
+ArrayStoreException
+InputMismatchException
+NullPointerException
+NumberFormatException
+StringIndexOutOfBoundsException
+
+PATH METHOD - 4
+String toString()
+Path getFileName()
+int getNameCount()
+Path getName(int)
+
+CHECKACCESS METHOD - 4
+None
+WRITE
+READ
+EXECUTE
+
+BASICFILEATTRIBUTES METHOD - 4
+size()
+creationTime()
+lastModifiedTime()
+compareTo()
+
+IO CLASSES - 10
+InputStream
+FileInputStream
+BufferedInputStream
+OutputStream
+FileOutputStream
+BufferedOutputStream
+PrintStream
+Reader
+BufferedReader
+BufferedWriter
+
+METHOD OF THE OUTPUTSTREAM CLASS -4
+void close()
+void flush()
+void write(byte[] b)
+void write (byte[] b, int off, int len)
+
+STANDARDOPENOPTION ARGUMENTS - 6
+WRITE
+APPEND 
+TRUNCATE_EXISTING
+CREATE_NEW
+CREATE
+DELETE_ON_CLOSE
+
+BUFFEREDREADER - 5
+close()
+read()
+read (char[] buffer, int off, int len)
+readLine()
+skip(long n)
+
+BUFFEREDWRITER - 6
+close()
+flush()
+newLine()
+write(String s, int off, int len)
+write(char[]   array, int off, int len)
+write(int c)

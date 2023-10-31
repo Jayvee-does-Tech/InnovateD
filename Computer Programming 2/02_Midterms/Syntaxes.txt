@@ -1,0 +1,7 @@
+The getMessage() method can be used to determine Java’s message about the exception. Syntax: System.out.println(exceptionName.getMessage());
+
+An absolute path is a complete path; it does not require any other information to locate a file on a system.
+Example: C:\Java\Chapter8\sample.txt
+
+To create and define a Path, use the Paths class and its get() method.
+Example: Path filePath = Paths.get(“C:\\Java\\Chapter8\\sample.txt”);

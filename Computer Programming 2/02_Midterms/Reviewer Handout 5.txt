@@ -1,0 +1,19 @@
+Exception - event that occurs during the execution
+Exception Handling - process to change the normal flow of code execution
+Checked Exception - Exception that occur during compilation
+Unchecked Exception - Exception that occur during execution
+
+Try block - block of code that might throw exception by a matching catch block.
+Catch block - segment of code that might be thrown by the try block.
+
+getMessage() - determine Java's message about the exception.
+Syntax: System.out.println(exceptionName.getMessage());
+
+"Only one (1) try block is acceped in a program but there can be multiple catch blocks."
+
+User-defined exception - created by extending the Exception class.
+Finally block - contains statements which are executed where or not an exception is thrown.
+
+"There can only be one (1) finally block after a try-catch structure but it is not required".
+
+Throw statement - send exception out of a block so it can be handled elsewhere

@@ -1,0 +1,37 @@
+COMPUTER FILES
+Volatile storage - temporary.
+"Volatile values (stored in variables) are lost when the computer loses its power."
+Random Access Memory (RAM) - used when a Java program stores a value in variable.
+Non-Volatile storage - permanent.
+" A Java program that is saved on a disk uses a non-volatile storage."
+
+Categories of File:
+Text file - consist of data than can be read in a text editor. Data in a text file is encoded using a scheme (ASCII) & (Unicoded). 
+i.e: programs files and application files.
+Binary file - contains data that is not encoded as text. The contents is in binary format, which means they cannot be understood by viewing them in a text editor. i.e, images,music.
+
+" size, name, and date and time of creation are the common characteristics of a text file and binary file."
+" folders and directories is used to organize stored files"
+" Users may also create folders within the folders"
+Path - complete list of the disk drive which the file is located.
+Backdash (\) Path delimiter - used to separate path components.
+
+The path and Files Classes
+
+Path class - create objects that contains information about files and directories.
+File class - perform operations on files and directories.
+
+"To use both the Parh and Files classes, use the following statement.
+import.java.nio.file.*"
+"To create and define a path, use the Paths class and its get() method.
+Ex: Path filePath = Paths.get("C:\\Java\\Chapter\\sample.text")"
+
+Absolute path - complete path.
+"it does not require any other information to locate a file on a system.
+Ex: C:\Java\Chapter\sample.txt"
+
+Relative path - depends on other path information.
+Ex: sample.txt
+    Chapter8\sample.txt
+    Java\Chapter8
+
